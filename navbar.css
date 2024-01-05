@@ -1,0 +1,147 @@
+ /* Navbar section */
+ .navbar {
+     width: 100%;
+     display: flex;
+     height: 200px;
+     align-items: center;
+     justify-content: center;
+     color: #FE7A2B;
+     position: sticky;
+     top: 0;
+     background: linear-gradient(to right, #B9F9C6, #F8E7A9, #f5c1be);
+     z-index: 1000;
+ }
+
+ .leftNavbar {
+     width: 30%;
+     display: flex;
+     align-items: center;
+ }
+
+ .logo img {
+     width: 128px;
+     height: 128px;
+ }
+
+ .humberger {
+     display: none;
+ }
+
+ .humBtn {
+     background-color: transparent;
+     border: none;
+     margin-top: 10px;
+ }
+
+ .rightNavbar {
+     width: 50%;
+     height: 70px;
+
+ }
+
+ .navList {
+     background-color: #FFFFFF;
+     opacity: 65%;
+     border-radius: 114px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     /* margin-top: 10px; */
+     position: relative;
+     right: 28px;
+     z-index: 1;
+     padding: 20px;
+ }
+
+ .list {
+     list-style: none;
+     transition: ease-in-out 0.3s;
+ }
+
+ .list:hover {
+     scale: 1.2;
+ }
+
+ .navBtn {
+     text-decoration: none;
+     color: #FE7A2B;
+     font-size: 40px;
+     font-weight: 900px;
+     padding: 10px;
+     margin-right: 10px;
+
+ }
+
+
+
+ @media only screen and (max-width:760px) {
+     .navbar {
+         height: 90px;
+     }
+
+     .leftNavbar {
+         width: 100%;
+         justify-content: space-between;
+     }
+
+     .logo img {
+         width: 60px;
+         height: 60px;
+     }
+
+     .humberger {
+         display: block;
+         margin-right: 1rem;
+
+     }
+
+     .rightNavbar {
+         width: auto;
+     }
+
+     .navList {
+         flex-direction: column;
+         position: absolute;
+         top: 4.2rem;
+         right: 0;
+         background: linear-gradient(to right, #B9F9C6, #F8E7A9, #f5c1be);
+         opacity: 100%;
+         border-radius: 5px;
+         height: 100vh;
+         justify-content: start;
+         display: none;
+     }
+
+     .list {
+         margin-top: 20px;
+     }
+
+
+
+     .navBtn {
+         color: #FE7A2B;
+         font-size: 28px;
+     }
+
+     .hideShow {
+         display: block;
+     }
+
+ }
+
+ @media only screen and (min-width:761px) and (max-width:1146px) {
+     .navbar {
+         height: 150px;
+     }
+
+     .logo img {
+         width: 70px;
+         height: 70px;
+     }
+
+     .navBtn {
+         font-size: 22px;
+         margin-top: 5px;
+
+     }
+ }
