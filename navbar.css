@@ -6,8 +6,8 @@
      align-items: center;
      justify-content: center;
      color: #FE7A2B;
-     position: sticky;
-     top: 0;
+     /* position: sticky;
+     top: 0; */
      background: linear-gradient(to right, #B9F9C6, #F8E7A9, #f5c1be);
      z-index: 1000;
  }
@@ -49,7 +49,7 @@
      /* margin-top: 10px; */
      position: relative;
      right: 28px;
-     z-index: 1;
+     z-index: 1000;
      padding: 20px;
  }
 
