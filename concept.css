@@ -1,0 +1,413 @@
+.concept-section {
+    background-color: #F4B5C4;
+    height: 100vh;
+}
+
+/* Section title styles */
+.section-title {
+    color: #E26986;
+    font-size: 64px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+/* Container styles */
+.container {
+    width: 50%;
+    /* margin: 0 auto; */
+    padding-left: 18rem;
+    text-align: justify;
+
+}
+
+/* Ordered list styles */
+.concept-list {
+
+    padding-bottom: 32px;
+    list-style-type: none;
+}
+
+/* List item styles */
+.concept-list li {
+    margin-bottom: 8px;
+    margin-left: 4px;
+    position: relative;
+}
+
+/* List marker styles */
+.list-marker {
+    width: 15px;
+    height: 15px;
+    background-color: #FE7A2B;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: -40px;
+
+}
+
+.list-marker::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 120px;
+    /* Adjust the length of the line */
+    width: 3px;
+    /* Adjust the thickness of the line */
+    background-color: #FE7A2B;
+    transform: translate(-50%, -50%);
+}
+
+/* Time (first child in the list item) styles */
+.list-heading {
+    margin-bottom: 1px;
+    font-size: 30px;
+    color: #5D4C41;
+}
+
+/* Description styles */
+.list-description {
+    font-size: 20px;
+    color: #5D4C41;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+.main-contianer {
+
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.concept-images {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 5rem;
+
+}
+
+
+.concept-images-inner-background {
+
+
+    background-color: #E26986;
+    height: 60%;
+    width: 100%;
+
+    border-top-left-radius: 46%;
+    border-bottom-left-radius: 46%;
+
+}
+
+.inner-container-images {
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.large-image {
+
+    width: 500px;
+    height: 450px;
+    z-index: 100;
+    transform: rotatey(180deg);
+    cursor: pointer;
+
+}
+
+.small-image {
+
+    width: 180px;
+    height: 180px;
+    z-index: 999;
+    transition: ease-in 0.3s ;
+
+}
+
+
+.small-image:hover{
+
+
+    transform: rotatez(60deg);
+    scale: 1.1;
+}
+
+.inner-image-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.first-images-container {
+
+
+    position: relative;
+    top: -3rem;
+
+}
+
+div.first-images-container img:nth-child(1) {
+
+    position: relative;
+    left: -10rem;
+    top: 5rem;
+    height: 130px;
+    width: 130px;
+
+
+
+}
+
+div.first-images-container img:nth-child(2) {
+
+    position: relative;
+    top: -2rem;
+    opacity: 80%;
+    height: 200px;
+    width: 200px;
+    z-index: 99;
+
+
+}
+
+.second-last-images-container {
+
+    position: relative;
+    top: -17.5rem;
+
+
+}
+
+div.second-last-images-container img:nth-child(2) {
+    position: relative;
+    top: 200px;
+    left: -30px;
+    height: 150px;
+    width: 150px;
+
+}
+
+.last-images-container {
+
+
+    position: relative;
+
+    top: -25rem;
+    left: -60px
+}
+
+div.last-images-container img:nth-child(1) {
+
+    position: relative;
+    top: -20px;
+    left: -7rem;
+
+}
+
+div.last-images-container img:nth-child(2) {
+
+    position: relative;
+    top: 20px;
+
+
+
+}
+
+
+@media only screen and (max-width:500px) {
+
+    .concept-images {
+
+        display: none;
+        width: 0%;
+
+    }
+
+    .concept-section {
+        background: linear-gradient(to right, #B9F9C6, #F8E7A9, #f5c1be);
+    }
+
+    .container {
+
+        width: 100%;
+        padding-left: 60px;
+        padding-right: 50px;
+        padding-top: 0px;
+        margin-top: 0;
+    }
+
+    .main-contianer {
+        align-items: start;
+        padding-top: 50px;
+
+    }
+
+    .list-marker::after {
+        height: 165px;
+    }
+
+    /* Time (first child in the list item) styles */
+    .list-heading {
+        font-size: 25px;
+        margin-bottom: 30px;
+
+    }
+
+
+
+
+}
+
+@media only screen and (min-width:500px) and (max-width:760px) {
+
+
+    .concept-images {
+
+        display: none;
+        width: 0%;
+
+    }
+
+    .concept-section {
+        background: linear-gradient(to right, #B9F9C6, #F8E7A9, #f5c1be);
+    }
+
+    .container {
+
+        width: 100%;
+        padding-left: 60px;
+        padding-right: 50px;
+        padding-top: 0px;
+        margin-top: 0;
+    }
+
+    .main-contianer {
+        align-items: start;
+        padding-top: 50px;
+
+    }
+
+    .list-marker::after {
+        height: 165px;
+    }
+
+    /* Time (first child in the list item) styles */
+    .list-heading {
+        font-size: 25px;
+        margin-bottom: 30px;
+
+    }
+
+}
+
+
+@media only screen and (min-width:761px) and (max-width:876px) {
+
+
+    .concept-images {
+
+        display: none;
+        width: 0%;
+
+    }
+
+    .concept-section {
+        background: linear-gradient(to right, #B9F9C6, #F8E7A9, #f5c1be);
+    }
+
+    .container {
+
+        width: 100%;
+        padding-left: 60px;
+        padding-right: 50px;
+        padding-top: 0px;
+        margin-top: 0;
+    }
+
+    .main-contianer {
+        align-items: start;
+        padding-top: 50px;
+
+    }
+
+    .list-marker::after {
+        height: 165px;
+    }
+
+    /* Time (first child in the list item) styles */
+    .list-heading {
+        font-size: 25px;
+        margin-bottom: 30px;
+
+    }
+}
+
+
+@media only screen and (min-width:877px) and (max-width:1150px) {
+
+    .concept-images {
+
+        display: none;
+        width: 0%;
+
+    }
+
+    .concept-section {
+        background: linear-gradient(to right, #B9F9C6, #F8E7A9, #f5c1be);
+    }
+
+    .container {
+
+        width: 100%;
+        padding-left: 60px;
+        padding-right: 50px;
+        padding-top: 0px;
+        margin-top: 0;
+    }
+
+    .main-contianer {
+        align-items: start;
+        padding-top: 50px;
+
+    }
+
+    .list-marker::after {
+        height: 165px;
+    }
+
+    /* Time (first child in the list item) styles */
+    .list-heading {
+        font-size: 25px;
+        margin-bottom: 30px;
+
+    }
+}
+
+@media only screen and (min-width:1151px) and (max-width:1445px) {
+
+
+
+
+    .container {
+        width: 45vw;
+        /* margin: 0 auto; */
+        padding-left: 10rem;
+        text-align: justify;
+    
+    }
+    .list-marker::after {
+        height: 165px;
+    }
+
+}
