@@ -10,3 +10,74 @@ body {
     width: 100vw;
     overflow-x: hidden;
 }
+
+
+@font-face {
+    font-family: SourGummy-Regular;
+    src: url("./fonts/SourGummy-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: SourGummy-Black;
+    src: url("./fonts/SourGummy-Black.ttf");
+  }
+  
+  @font-face {
+
+    font-family: SourGummy-Bold;
+    src: url("./fonts/SourGummy-Bold.ttf");
+  }
+  
+  @font-face {
+    font-family: SourGummy-Medium;
+    src: url("./fonts/SourGummy-Medium.ttf");
+  }
+  
+
+  .SourGummy-Regular {
+    font-family: SourGummy-Regular;
+    font-weight: 400;
+  }
+  
+  .SourGummy-Medium {
+    font-family: SourGummy-Medium;
+    font-weight: 500;
+  }
+  
+  .SourGummy-Bold {
+    font-family: SourGummy-Bold;
+    font-weight: 700;
+  }
+  
+  .SourGummy-Black {
+    font-family: SourGummy-Black;
+    font-weight: 900;
+  }
+  
+  .font-poppins {
+    font-family: "Poppins", sans-serif;
+  }
+  h1 {
+    
+    font-family: "SourGummy-Black", sans-serif;
+  }
+  h2 {
+    font-family: "SourGummy-Bold", sans-serif;
+  }
+  
+  h3 {
+    font-family: "SourGummy-Medium", sans-serif;
+  }
+  h4 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+  }
+  h6 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+  }
+  p {
+    font-family: "SourGummy-Regular", sans-serif;
+  }
+  
+

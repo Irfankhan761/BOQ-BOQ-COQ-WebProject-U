@@ -65,6 +65,7 @@
  .navBtn {
      text-decoration: none;
      color: #FE7A2B;
+     font-family: "SourGummy-Regular", sans-serif;
      font-size: 40px;
      font-weight: 900px;
      padding: 10px;
@@ -121,6 +122,7 @@
      .navBtn {
          color: #FE7A2B;
          font-size: 28px;
+         font-family: "SourGummy-Regular", sans-serif;
      }
 
      .hideShow {

@@ -2,34 +2,34 @@
     background-color: #E26986;
     text-align: center;
     padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    min-height: 60vh;
+    justify-content: space-between;
 }
 
 .section-title {
     font-size: 64px;
     color: #B83077;
-    margin-bottom: 4px;
-    padding-top: 10px;
 }
 
 .section-description {
     font-size: 24px;
+    width: 65%;
+    margin: 0px auto 0px auto;
     color: #fff;
     text-align: center;
-    margin-bottom: 6px;
-    padding: 0 16px;
 }
 
 .logo-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 12px;
-    margin-bottom: 8px;
 }
 
 .logo-item {
     width: 70px;
-    object-fit: scale-down;
+    margin-left: 25px;
 }
 
 .subscribe-container {
@@ -49,3 +49,39 @@
     border-radius: 50px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+@media screen and (max-width: 600px) {
+   
+    
+    .section-title {
+        font-size: 44px;
+    }
+    
+    .section-description {
+        font-size: 22px;
+        width: 90%;
+        
+    }
+    
+    .logo-container {
+        
+        justify-content: flex-start;
+       
+    }
+    
+    .logo-item {
+        width: 45px;
+        margin-left: 23px;
+    }
+    
+   
+    
+    .subscribe-button {
+        font-size: 20px;
+        width: 300px;
+        border-radius: 30px;
+ 
+    }
+    
+}
+
