@@ -130,12 +130,12 @@
     width: 180px;
     height: 180px;
     z-index: 999;
-    transition: ease-in 0.3s ;
+    transition: ease-in 0.3s;
 
 }
 
 
-.small-image:hover{
+.small-image:hover {
 
 
     transform: rotatez(60deg);
@@ -404,8 +404,9 @@ div.last-images-container img:nth-child(2) {
         /* margin: 0 auto; */
         padding-left: 10rem;
         text-align: justify;
-    
+
     }
+
     .list-marker::after {
         height: 165px;
     }

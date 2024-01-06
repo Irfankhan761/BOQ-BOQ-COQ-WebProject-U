@@ -1,0 +1,148 @@
+.about-section {
+    width: 100%;
+    background-color: #F4B5C4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 120vh;
+}
+
+.about-section h1 {
+    text-align: center;
+    font-size: 64px;
+    padding-top: 33px;
+    color: #002C48;
+
+}
+
+.inner-about p {
+    font-size: 24px;
+}
+
+.inner-about {
+    position: relative;
+    top: 20px;
+    height: 456px;
+    width: 900px;
+    display: flex;
+    background-color: #e7adba;
+    /* background-color: #FFFFFF;
+    opacity: 1; */
+    border-radius: 104px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.discord-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.discord-about img {
+    width: 406px;
+    height: 406px;
+
+}
+
+.twitter-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.twitter-about img {
+    width: 406px;
+    height: 406px;
+
+}
+
+@media screen and (max-width: 600px) {
+    .about-section {
+        background: linear-gradient(to right, #B9F9C6, #F8E7A9, #f5c1be);
+        height: 157vh;
+    }
+
+    .about-section h1 {
+        font-size: 40px;
+    }
+
+    .inner-about {
+        background: linear-gradient(to right, #B9F9C6, #F8E7A9, #f5c1be);
+        width: 80%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+        border-radius: 20px;
+    }
+
+    .discord-about,
+    .twitter-about {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .about-section {
+        height: 70vh;
+        background: linear-gradient(to right, #B9F9C6, #F8E7A9, #f5c1be);
+        position: relative;
+        bottom: 100px;
+    }
+
+    .about-section h1 {
+        font-size: 50px;
+        font-weight: bold;
+        padding-top: 0px;
+        color: orange;
+
+
+    }
+
+    .inner-about p {
+        font-size: 34px;
+    }
+
+    .inner-about {
+        position: relative;
+        top: 20px;
+        height: 506px;
+        width: 750px;
+    }
+
+
+
+    .discord-about img {
+        width: 306px;
+        height: 306px;
+
+    }
+
+    .discord-about p {
+        font-size: 25px;
+
+    }
+
+
+
+
+    .twitter-about img {
+        width: 306px;
+        height: 306px;
+
+    }
+
+    .twitter-about p {
+        font-size: 25px;
+
+    }
+
+
+
+}

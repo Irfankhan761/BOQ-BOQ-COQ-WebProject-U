@@ -73,25 +73,25 @@
     z-index: 1000;
 }
 
-.branch-right{
+.branch-right {
 
     /* 
     position: absolute; */
-              
-        width: 300px;
-        height: 250px;
-        position: absolute;
-        top:-10rem            
-            }
-       
-    
-            .br-right{
-    
-    
+
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: -10rem
+}
+
+
+.br-right {
+
+
     position: relative;
-    
-    
-            }
+
+
+}
 
 @media only screen and (max-width:500px) {
     .mainHome {
@@ -176,19 +176,20 @@
     }
 
 
-    .branch-right{
+    .branch-right {
 
-       
-                  
-            width: 200px;
-            height: 150px;
-            position: absolute;
-            top:-8rem;
-            left: -1rem;       
-                }
+
+
+        width: 200px;
+        height: 150px;
+        position: absolute;
+        top: -8rem;
+        left: -1rem;
+    }
 
 
 }
+
 @media only screen and (min-width:500px) and (max-width:760px) {
     .mainHome {
         width: 100%;
@@ -212,7 +213,7 @@
         text-shadow: 3px 0px 0px #000000;
     }
 
-  
+
 
     .leftHome p {
         width: 90%;
@@ -232,7 +233,7 @@
         color: #FF572D;
         font-size: 20px;
         background-color: #FDDF7C;
-margin-top:4rem;
+        margin-top: 4rem;
         border-radius: 37px;
 
     }
@@ -271,10 +272,11 @@ margin-top:4rem;
         left: 20px;
         z-index: 100;
     }
-    .branch-right{
+
+    .branch-right {
 
         width: 250px;
-        left:-1rem
+        left: -1rem
     }
 
 }
@@ -292,7 +294,7 @@ margin-top:4rem;
         text-shadow: 3px 0px 0px #000000;
     }
 
- 
+
 
 
     .leftHome span {
@@ -319,6 +321,7 @@ margin-top:4rem;
         font-size: 20px;
         text-align: justify;
     }
+
     .vxImg {
         width: 38px;
         height: 38px;
@@ -350,11 +353,11 @@ margin-top:4rem;
 
     }
 
-    .branch-right{
-        top:-7rem;
+    .branch-right {
+        top: -7rem;
         width: 230px;
-       
-            }
+
+    }
 
 
 
@@ -387,7 +390,7 @@ margin-top:4rem;
         border-radius: 67px;
     }
 
- 
+
     .vxImg {
         width: 40px;
         height: 40px;
@@ -419,14 +422,14 @@ margin-top:4rem;
 
     }
 
-    .branch-right{
+    .branch-right {
 
-       
-                  
-     
-        top:-7rem;
-       
-            }
+
+
+
+        top: -7rem;
+
+    }
 
 
 }
