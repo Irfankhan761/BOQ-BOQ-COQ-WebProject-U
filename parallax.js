@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let hero14 = document.getElementById("hero14");
 
 
-  let stopScrollingPoint = 250; // Adjust this value according to your needs
+  let stopScrollingPoint = 205; // Adjust this value according to your needs
   let isParallaxEnabled = true;
   let isReverseAnimation = false; // Flag to indicate reverse animation
 
