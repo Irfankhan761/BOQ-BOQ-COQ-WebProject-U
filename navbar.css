@@ -92,7 +92,8 @@
 
      .humberger {
          display: block;
-         margin-right: 1rem;
+         position: absolute;
+         right:  1rem;
 
      }
 
@@ -102,13 +103,13 @@
 
      .navList {
          flex-direction: column;
-         position: absolute;
-         top: 61.2rem;
+         position: relative;
+         top: 55px;
          right: 0;
          background: linear-gradient(to right, #B9F9C6, #F8E7A9, #f5c1be);
          opacity: 100%;
          border-radius: 5px;
-         height: 100vh;
+         min-height: 80vh;
          justify-content: start;
          display: none;
      }

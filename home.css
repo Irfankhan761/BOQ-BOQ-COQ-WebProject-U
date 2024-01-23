@@ -8,9 +8,11 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    
 }
 
 .leftHome {
+    
     position: relative;
     left: 45px;
     width: 45%;
@@ -36,6 +38,7 @@
     background-color: #FDDF7C;
     padding: 20px;
     border-radius: 67px;
+    
 }
 
 .vxImg {
@@ -51,6 +54,7 @@
 }
 
 .brImg {
+    
     margin-top: 114px;
     position: absolute;
     right: 0;
@@ -66,6 +70,7 @@
 }
 
 .mainPageImg {
+    
     width: 100%;
     position: relative;
     top: 30px;
@@ -107,6 +112,7 @@
         justify-content: center;
         width: 80%;
         margin-top: 80px;
+        
     }
 
     .leftHome h1 {
@@ -124,13 +130,13 @@
     }
 
     .leftHome span {
-        border: 1px solid green;
         width: 300px;
         height: 60px;
         display: flex;
         align-items: center;
         position: relative;
         top: 10px;
+        left: 20px;
         color: #FF572D;
         font-size: 20px;
         background-color: #FDDF7C;
@@ -141,8 +147,8 @@
     }
 
     .vxImg {
-        width: 74px;
-        height: 74px;
+        width: 54px;
+        height: 54px;
         margin-bottom: 50px;
         margin-left: 0px;
 
@@ -223,7 +229,7 @@
     }
 
     .leftHome span {
-        border: 1px solid green;
+
         width: 300px;
         height: 60px;
         display: flex;
@@ -298,7 +304,6 @@
 
 
     .leftHome span {
-        border: 1px solid green;
         width: 300px;
         height: 60px;
         display: flex;

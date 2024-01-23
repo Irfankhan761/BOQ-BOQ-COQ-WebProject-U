@@ -56,7 +56,8 @@
     }
 
     .sec h2 {
-        font-size: 2em;
+        align-items: center;
+        font-size: 1.5em;
         margin: 0;
     }
 }

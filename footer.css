@@ -55,29 +55,33 @@
     
     .section-title {
         font-size: 44px;
+        margin: -1px;
     }
     
     .section-description {
+        margin: 10px;
         font-size: 22px;
         width: 90%;
         
     }
     
     .logo-container {
-        
+        margin: 20px;
         justify-content: flex-start;
        
     }
     
     .logo-item {
         width: 45px;
-        margin-left: 23px;
+        height: 45px;
+        margin: auto;
+      
     }
     
    
     
     .subscribe-button {
-        font-size: 20px;
+        font-size: 25px;
         width: 300px;
         border-radius: 30px;
  
